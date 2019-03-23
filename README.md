@@ -1,2 +1,1 @@
-# wap
-Web Application Project
+# Starter Web Application Project (SWAP)
