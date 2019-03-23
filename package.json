@@ -1,0 +1,49 @@
+{
+  "name": "swap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesRobertHugginsNgo/swap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesRobertHugginsNgo/swap/issues"
+  },
+  "homepage": "https://github.com/JamesRobertHugginsNgo/swap#readme",
+  "vendors": {
+    "jquery": {
+      "local": {
+        "src": "./node_modules/jquery/dist/jquery.js",
+        "dest": "./dist/vendors/jquery/",
+        "preprocess": {
+          "JQUERY_URL": "./vendors/jquery/jquery.js"
+        }
+      }
+    }
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "del": "^4.0.0",
+    "eslint": "^5.15.3",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-inject-partials": "^1.0.4",
+    "gulp-preprocess": "^3.0.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-server": "^0.1.0",
+    "gulp-webserver": "^0.9.1",
+    "merge-stream": "^1.0.1"
+  }
+}
