@@ -95,4 +95,4 @@ function serve() {
 	}));
 }
 
-exports.serve = gulp.series(exports.default, serve, watch);
+exports.serve = gulp.series(exports.default, watch, serve);
