@@ -93,6 +93,8 @@ function serve() {
 		open: true,
 		port: process.env.PORT || 8080
 	}));
+
+	watch();
 }
 
-exports.serve = gulp.series(exports.default, watch, serve);
+exports.serve = gulp.series(exports.default, serve);
